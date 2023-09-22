@@ -7,7 +7,7 @@ const connection = new web3.Connection(clusterApiUrl('devnet'));
 const transaction = new web3.Transaction();
 
 const privatekey = process.env.Private_key;
-console.log(privatekey)
+// console.log(privatekey)
 const secretKeyBytes = bs58.decode(privatekey);
 const secretKey = new Uint8Array(secretKeyBytes);
 const keypairFromSecretKey = web3.Keypair.fromSecretKey(secretKey);
