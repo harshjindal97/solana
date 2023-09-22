@@ -2,7 +2,7 @@ const { Connection, PublicKey } = require('@solana/web3.js');
 
 const connection = new Connection("https://api.devnet.solana.com");
 const recipientAddress = new PublicKey("FoFKfrqAf2UsszvJLxVrtwQe9uFkbqkd8NWpZzUFbsN8");
-const lamports = 1000000000; // Amount in lamports
+const lamports = 2000000000; // Amount in lamports
 
 connection.requestAirdrop(recipientAddress, lamports)
   .then((txid: string) => { // Specify the type of txid as string

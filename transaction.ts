@@ -24,7 +24,7 @@ const transaction = new Transaction();
 
 const senderPublicKey = new PublicKey("FoFKfrqAf2UsszvJLxVrtwQe9uFkbqkd8NWpZzUFbsN8")
 const reciverPublicKey = new PublicKey("ELnAYZwAJxnox7LBcAVpqqHfBBziEZGovp4FLMg9uGgh")
-const amount = 1;
+const amount = 0.1;
 const transactionDetail = SystemProgram.transfer({
     fromPubkey: senderPublicKey,
     toPubkey: reciverPublicKey,
