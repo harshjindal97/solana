@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+.wallet-button{
+  background-color: blue;
+  color: green;
+}
