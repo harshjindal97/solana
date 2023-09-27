@@ -4,8 +4,8 @@ import styles from './page.module.css'
 import { WallettAdapter } from './component/page'
 import { Card } from './component/card'
 import { AppBar } from './component/appBar'
+import { MovieList } from './component/movielist'
 // import { Ping } from './component/pingButton'
-const MOVIE_REVIEW_PROGRAM_ID = 'CenYq6bDRB7p73EjsPEpiYN7uveyPUTdXkDkgUduboaN'
 export default function Home() {
   return (
     <div>
@@ -13,6 +13,7 @@ export default function Home() {
         <AppBar/>
         {/* <Ping/> */}
         <Card/>
+        <MovieList/>
       </WallettAdapter>
     </div>
   )
